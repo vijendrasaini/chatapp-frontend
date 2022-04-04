@@ -1,10 +1,6 @@
 import './chat.css'
 import { io } from 'socket.io-client'
 import { useEffect, useRef, useState } from 'react'
-import { EmojiPicker, Emoji } from "react-emoji-search";
-
-
-
 
 const socket = io('https://ervijuchat.herokuapp.com')
 const joined_user = prompt('Enter your name')
