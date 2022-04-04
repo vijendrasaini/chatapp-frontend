@@ -2,6 +2,12 @@ body{
     background-color: black;
     color: white;
 }
+.user{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
 .container{
     max-width: 700px;
     margin: auto;
@@ -12,14 +18,14 @@ body{
     margin-bottom: 20px;
     padding: 20px;
 }
-.chatsContainer::-webkit-scrollbar{
-    width: 7px;
+.container::-webkit-scrollbar{
+    width: 8px;
 }
-.chatsContainer::-webkit-scrollbar-thumb{
-    width: 7px;
+.container::-webkit-scrollbar-track{
+    width: 8px;
 }
-.chatsContainer::-webkit-scrollbar-track{
-    width: 7px;
+.container::-webkit-scrollbar-thumb{
+    width: 8px;
 }
 .title{
     text-align: center;
