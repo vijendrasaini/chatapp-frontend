@@ -8,9 +8,18 @@ body{
 }
 .chatsContainer{
     height: 480px;
-    
+    overflow-y: scroll;
     margin-bottom: 20px;
     padding: 20px;
+}
+.chatsContainer ::-webkit-scrollbar{
+    width: 7px;
+}
+.chatsContainer ::-webkit-scrollbar-thumb{
+    width: 7px;
+}
+.chatsContainer ::-webkit-scrollbar-track{
+    width: 7px;
 }
 .title{
     text-align: center;
