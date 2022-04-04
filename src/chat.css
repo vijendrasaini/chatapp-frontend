@@ -12,13 +12,13 @@ body{
     margin-bottom: 20px;
     padding: 20px;
 }
-.chatsContainer ::-webkit-scrollbar{
+.chatsContainer::-webkit-scrollbar{
     width: 7px;
 }
-.chatsContainer ::-webkit-scrollbar-thumb{
+.chatsContainer::-webkit-scrollbar-thumb{
     width: 7px;
 }
-.chatsContainer ::-webkit-scrollbar-track{
+.chatsContainer::-webkit-scrollbar-track{
     width: 7px;
 }
 .title{
