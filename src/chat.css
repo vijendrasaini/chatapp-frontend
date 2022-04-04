@@ -2,11 +2,19 @@ body{
     background-color: black;
     color: white;
 }
+.useralign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .user{
     background-color: orange;
+    padding: 10px 10px;
     color: black;
     font-weight: bold;
     font-size: 16px;
+    margin: auto;
+    text-align: center;
 }
 .container{
     max-width: 700px;
@@ -18,14 +26,16 @@ body{
     margin-bottom: 20px;
     padding: 20px;
 }
-.container::-webkit-scrollbar{
+.chatsContainer::-webkit-scrollbar{
+    background-color: rgb(25, 21, 21);
     width: 8px;
 }
-.container::-webkit-scrollbar-track{
+.chatsContainer::-webkit-scrollbar-track{
     width: 8px;
 }
-.container::-webkit-scrollbar-thumb{
+.chatsContainer::-webkit-scrollbar-thumb{
     width: 8px;
+    background-color: rgb(42, 39, 39);
 }
 .title{
     text-align: center;
@@ -52,11 +62,12 @@ body{
 form{
     text-align: center;
     max-width: 700px;
-    display: flex;
+    /* display: flex; */
 }
 input{
     width: 100%;
     font-size: 20px;
+    padding: 10px;
 }
 button{
     font-size: 25px;
@@ -69,4 +80,15 @@ button{
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
+    display: block;
+}
+.user-heading{
+    text-align: center;
+    display: inline;
+}
+.username{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
 }
